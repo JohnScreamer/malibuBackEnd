@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "order",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "integer"
+    },
+    "totalPrice": {
+      "type": "integer"
+    },
+    "orderList": {
+      "type": "json"
+    },
+    "street": {
+      "type": "string"
+    },
+    "flat": {
+      "type": "integer"
+    },
+    "house": {
+      "type": "integer"
+    },
+    "time": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

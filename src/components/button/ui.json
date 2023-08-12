@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_button_uis",
+  "info": {
+    "displayName": "UI"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  }
+}

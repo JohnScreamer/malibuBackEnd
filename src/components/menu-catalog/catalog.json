@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_menu_catalog_catalogs",
+  "info": {
+    "displayName": "catalog"
+  },
+  "options": {},
+  "attributes": {
+    "Links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link"
+    }
+  }
+}
