@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "special_offers",
+  "info": {
+    "singularName": "special-offer",
+    "pluralName": "special-offers",
+    "displayName": " specialOffer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "home_page": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::home-page.home-page",
+      "inversedBy": "special_offers"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

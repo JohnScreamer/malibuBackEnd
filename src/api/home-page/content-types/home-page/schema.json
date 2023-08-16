@@ -37,6 +37,12 @@
       "type": "component",
       "repeatable": false,
       "component": "discount-list.list"
+    },
+    "special_offers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::special-offer.special-offer",
+      "mappedBy": "home_page"
     }
   }
 }
